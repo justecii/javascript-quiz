@@ -1,7 +1,16 @@
-.container {
-	display: inline-block;
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: blur;
 }
 
+.container {
+	display: inline-block;
+	text-align: center;
+}
+.title {
+	max-height: 100px;
+}
 .answers {
 	background: lightgrey;
 	height: 100px;
@@ -15,4 +24,91 @@
 
 .hidden {
 	display:none;
+}
+.blueTobias {
+	background-image: url(http://img.wennermedia.com/920-width/rs-138930-3-tobais-blue-man-understudy-1368465071.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    font-family: blur;
+}
+.gobMistake {
+	background-image: url(http://media.hollywood.com/images/l/gobinjail.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    font-family: blur;
+}
+.buster {
+	background-image: url(https://img.huffingtonpost.com/asset/570414551500002a000b41a5.jpeg?ops=scalefit_720_noupscale);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    font-size: 60px;
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+    font-family: blur;
+}
+.gobSegway {
+	background-image: url(https://www.theinquirer.net/w-images/51e3f6ff-134d-4ad6-9210-72040fcc1611/0/gobblutharresteddevelopmentsegway-580x358.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    font-family: blur;
+}
+.bananaStand {
+	background-image: url(https://dudo6el28sqqp.cloudfront.net/gothamistgallery/2016/3/3/550ed6a1d-web_gallery.jpeg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    font-size: 60px;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-family: blur;
+}
+.neverTobias {
+	background-image: url(https://vignette1.wikia.nocookie.net/arresteddevelopment/images/7/73/1x02_Never_Nude_Shower.png/revision/latest?cb=20130305063016);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-family: blur;
+}
+
+#heading {
+	text-align: center;
+	
+}
+#heading h1 {
+	font-size: 2em;
+	color: transparent;
+   	text-shadow: 0 0 4px rgba(0,0,0,1);
 }

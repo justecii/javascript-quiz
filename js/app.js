@@ -4,6 +4,8 @@ var answerArray=document.querySelectorAll('.answer');
 var currentQuestion=document.getElementById('question');
 var nextBtn= document.getElementById('next');
 var finalPage=document.getElementById('final');
+var blueIt = document.querySelector('html');
+console.log(blueIt);
 
 
 var quizQuestions = [{
@@ -78,21 +80,27 @@ nextBtn.addEventListener('click', function(){
 	}else{
 		switch(score){
 			case 5:
-				finalPage.textContent="Wooo you got 100%";
+				finalPage.classList.add("bananaStand");
+				finalPage.textContent="100% - You found the money in the banana stand!";
 				break;
 			case 4:
-				finalPage.textContent="Yay you got 80%";
+				finalPage.classList.add("gobSegway");
+				finalPage.textContent="80% - You're coasting on by!";
 				break;
 			case 3:
-				finalPage.textContent="Meh you got 60%";
+				finalPage.classList.add("buster");
+				finalPage.textContent="60% - You're doing be All-Right";
 				break;
 			case 2:
-				finalPage.textContent="Poo you got 40%";
+				finalPage.classList.add("neverTobias")
+				finalPage.textContent="40% - You're worse than a Never-nude";
 				break;
 			case 1:
-				finalPage.textContent="You made a huge mistake 20%";
+				finalPage.classList.add("gobMistake");
+				finalPage.textContent="20% - You made a huge mistake";
 				break;
 			default:
+				finalPage.classList.add("blueTobias");
 				finalPage.textContent="You blue yourself";
 				break;
 		}

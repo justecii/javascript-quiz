@@ -112,3 +112,6 @@ html, body {
 	color: transparent;
    	text-shadow: 0 0 4px rgba(0,0,0,1);
 }
+ol {
+	display: block;
+}
